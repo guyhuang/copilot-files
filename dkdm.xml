@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DCinemaSecurityMessage xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+  <AuthenticatedPublic Id="ID_AuthenticatedPublic">
+    <MessageId>urn:uuid:175b49da-6e4e-4d7c-91e0-52d0a684bbf3</MessageId>
+    <MessageType>http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type</MessageType>
+    <AnnotationText>xuanfengnvduiaudio51_FTR_HEVC_14M_1920_1080_AC3_6CH_HL_20220803_SMPTE_OV</AnnotationText>
+    <IssueDate>2024-08-01T09:56:15+08:00</IssueDate>
+    <Signer>
+      <ds:X509IssuerName>dnQualifier=Vpj1EZbwPTC\+99JXUM5YObcjgW0=,CN=ca.chinafilm-hualong.com,O=Hualong Ltd,OU=chinafilm-hualong.com,OperationCode=E02</ds:X509IssuerName>
+      <ds:X509SerialNumber>4098</ds:X509SerialNumber>
+    </Signer>
+    <RequiredExtensions>
+      <KDMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-1/2006/KDM">
+        <Recipient>
+          <X509IssuerSerial>
+            <ds:X509IssuerName>CN=thirdca.ixuelian.com,O=IXUELIAN.COM,OU=ixuelian.com,dnQualifier=jV5UOV8tywn7\+SggVEPVuCma7kc=</ds:X509IssuerName>
+            <ds:X509SerialNumber>8</ds:X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=KDMGenNode_1,O=product.chinafilm-hualong.com,OU=producer,dnQualifier=LHulOhnCoQBF4ba8Mu1Y5QSmqyw=</X509SubjectName>
+        </Recipient>
+        <CompositionPlaylistId>urn:uuid:5742a4df-c73d-4e6f-9112-40841313fd22</CompositionPlaylistId>
+        <ContentTitleText>xuanfengnvduiaudio51_FTR_HEVC_14M_1920_1080_AC3_6CH_HL_20220803_SMPTE_OV</ContentTitleText>
+        <ContentKeysNotValidBefore>2024-07-02T00:00:00+08:00</ContentKeysNotValidBefore>
+        <ContentKeysNotValidAfter>2029-07-01T23:59:59+08:00</ContentKeysNotValidAfter>
+        <AuthorizedDeviceInfo>
+          <DeviceListIdentifier>urn:uuid:5affa613-df39-49a1-b070-8c81f823c6af</DeviceListIdentifier>
+          <DeviceListDescription/>
+          <DeviceList>
+            <CertificateThumbprint>2jmj7l5rSw0yVb/vlWAYkK/YBwk=</CertificateThumbprint>
+          </DeviceList>
+        </AuthorizedDeviceInfo>
+        <KeyIdList>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:9192d676-e61f-4c86-8d64-6d5278854111</KeyId>
+          </TypedKeyId>
+        </KeyIdList>
+      </KDMRequiredExtensions>
+    </RequiredExtensions>
+    <NonCriticalExtensions/>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="ID_AuthenticatedPrivate">
+    <enc:EncryptedKey xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+        <ds:DigestMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      </enc:EncryptionMethod>
+      <enc:CipherData>
+        <enc:CipherValue>TmoWq0BO7qC1ODHgssenAaChBXr0mGo6ERWsT927m2lN3UyYysggFpn6g0Th2+aotO63jMIFBBmR
+b3eoZIWkbJzkbfK8K9iXHSgFAqPSSSGFPcOXdQ3XlfzAMNwu6fJsF4S9v695ucIoIToc0YFxH/nx
+LyNyL/d3C9tl7HSmowQe7+Z9FJ3WQKa2S2qmbVx6G6NIQhLrq//PBRj3UDcQg8Vjcfrqc4ey/01R
+Nks5o4AqRZHsK+8O4DaUVaIsvidKe15j7WRDGdcUxjbhLGB5pRzBqMRSr9gQDlOeMbee8bcx5Yt/
+lMMpNWL1D+qRcs7EzyX42Typ827AvRnZOmwoLg==
+</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+  </AuthenticatedPrivate>
+<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#ID_AuthenticatedPublic"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>f+YcD5a7umilPA+kED6Ml+ZkZ55qsnREbVslekCf3+M=</ds:DigestValue></ds:Reference><ds:Reference URI="#ID_AuthenticatedPrivate"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Pot5SWHDC2EKDKo1X6+dIlczjRWrh2dWB9mxe+eYCU8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>aL+Mty/wgrijr9/oIjQGd16dMJ19xUI9+LJktxrRxDAJiLedwBix0m5tU9atsLrbs5EF30JVhEW50AYb6jqC2HJWZIj+YiVpbwocydkp5y8LdnsXe5HbIw24TtvZZCFXMGQlA2y1VmxM0J/Yl4dxJjN3f6zMfQmVx8DR42Jkk5IAtLNzqdPZ1wwwEoR9epGkYMc4gLv8zEP+/XfQ/6r+IfbJ0KdKnXlQaWEIiWYcPvo6R37reexu+itNWwJiLjRvdNzsF1HgdGVBNAxPFiT/SytNbYboFmWgqT1bGcUtmrV0T4ODWkVjk/G09BpFLZgZ4XppGGQmvrBopQMXjmqCbw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>dnQualifier=Vpj1EZbwPTC\+99JXUM5YObcjgW0=,CN=ca.chinafilm-hualong.com,O=Hualong Ltd,OU=chinafilm-hualong.com</ds:X509IssuerName><ds:X509SerialNumber>4098</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509Certificate>MIIE5jCCAs6gAwIBAgICEAIwDQYJKoZIhvcNAQELBQAwgYAxFDASBgNVBAoMC0h1
+YWxvbmcgTHRkMR4wHAYDVQQLDBVjaGluYWZpbG0taHVhbG9uZy5jb20xITAfBgNV
+BAMMGGNhLmNoaW5hZmlsbS1odWFsb25nLmNvbTElMCMGA1UELhMcVnBqMUVaYndQ
+VEMrOTlKWFVNNVlPYmNqZ1cwPTAeFw0yMTA2MTAxMTE4MjBaFw0yMjA2MjAxMTE4
+MjBaMIGOMRQwEgYDVQQKDAtIdWFsb25nIEx0ZDEeMBwGA1UECwwVY2hpbmFmaWxt
+LWh1YWxvbmcuY29tMS8wLQYDVQQDDCZkaXN0cmlidXRpb25zaWduLmNoaW5hZmls
+bS1odWFsb25nLmNvbTElMCMGA1UELhMcalY1VU9WOHR5d243K1NnZ1ZFUFZ1Q21h
+N2tjPTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMQwJ2cu6E4w9Djo
+SxVsoTROjqqBh/V10o18KyTKYiu1MC0gXb43uxyM1zeM53U3FEXP6goRufkWzlcI
+EXKbjC9H3ZhMWqYkrGq8wn4yVb79XF+0k0Bl1fKS6BojckeUsd/G/AetwiddcXoo
+jLvbYRVmrxWggG9BX6LLSE7Dl8nAe551p4fSJ/oJdc5puWgjxyFDbDdJ1BJGZ3k9
+vGB7Mm7oupcm/TGt3+zk5n+jqB6IyrS2va6H3hGyzprUbsh5PwLqI4jTCHwBCmD1
+sCQRBWMDArMJnOlKSEQ7DIyIyd4H1uQjKa7O8G2//w6z5FHZuqkOoyQ+KOy6JbXG
+ZnugthkCAwEAAaNaMFgwCQYDVR0TBAIwADAdBgNVHQ4EFgQUjV5UOV8tywn7+Sgg
+VEPVuCma7kcwHwYDVR0jBBgwFoAUVpj1EZbwPTC+99JXUM5YObcjgW0wCwYDVR0P
+BAQDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQCpTm6MPT6tkLZvwSdyMZhhiDSYUGoM
+ad1j03HySXkY/BUzEj2yCSRu+c4TeW1xT/o898jlDsgrcegOrHZ7sM4EhhhCZwqr
+4eqOdvizrotKgks8fDEB2SJQbmxvmDK025DNdDwjj2LvrcQO5Y9/SnaE6iFFqOu0
+eoWXd5GFa0edv8KSCBL3Fs8eC9qW22l4bg6nhMqelhu2UcO7tVbFfVBlVDJcBzln
+DFbpsgtDPHyt+JUJ1Q69RotZZIR07NFaZfgaU34WQZRIGqazn6ulcfs4qhbnvFiR
+7r35L/DFKrLwArPwbLY97HbVDA7WZ1mpvPRl5Rk/shWE2LCJZp2Oto6jnUZQP6PK
+P55aHnJu2kMtynza/1Mqg8aK5I4imZcn0ct0TSE5D2uDT/+/bv6WU93qUvhNnOuW
+m13qwyE56f5cEsTMzuhXrL7AIlXv3HA/wM57u5zziZu1Z1WOjU988qsnbBxksNRX
+LhHjibbtBFJWELufCGv6E/3kH3yhzOMcH+0LrJOuBqZMfSrWomJ2vZxSNGIScO7s
++sbBOfrb2XgFVKOCFSvV4XCpexLdEJ19isClvD4bgS1rNwVW7WP5pAEelX4dBPq2
+bAqCarfTqAyfFisuWrcvnyJngiYU0c8qR4Ro5gv9uXQu1NqoG/85t5lACpSrM8Qn
+Mrwh4wcYUlZTCg==
+</ds:X509Certificate></ds:X509Data><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>dnQualifier=XvAD7MmgaqXPsIklUSy3luZqCC8=,CN=ca-root.chinafilm-hualong.com,O=Hualong Ltd,OU=chinafilm-hualong.com</ds:X509IssuerName><ds:X509SerialNumber>4096</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509Certificate>MIIF6TCCA9GgAwIBAgICEAAwDQYJKoZIhvcNAQELBQAwgYUxJTAjBgNVBC4THFh2
+QUQ3TW1nYXFYUHNJa2xVU3kzbHVacUNDOD0xFDASBgNVBAoMC0h1YWxvbmcgTHRk
+MR4wHAYDVQQLDBVjaGluYWZpbG0taHVhbG9uZy5jb20xJjAkBgNVBAMMHWNhLXJv
+b3QuY2hpbmFmaWxtLWh1YWxvbmcuY29tMB4XDTIxMDYxMDEwNDcxNVoXDTMxMDYw
+ODEwNDcxNVowgYAxFDASBgNVBAoMC0h1YWxvbmcgTHRkMR4wHAYDVQQLDBVjaGlu
+YWZpbG0taHVhbG9uZy5jb20xITAfBgNVBAMMGGNhLmNoaW5hZmlsbS1odWFsb25n
+LmNvbTElMCMGA1UELhMcVnBqMUVaYndQVEMrOTlKWFVNNVlPYmNqZ1cwPTCCAiIw
+DQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALMfUBqRmm9KX+z7D3ZzLMK89odj
+6vwDHPBcBh4OSYCiaDiU8g+M4HU9c+my5tNxGhTTWGLa9vy39fNfmH0ifS0x4nF/
+P69sDLMwnoaeJYBOp6/SBjTBY6IyKHwCL0sJO+eQOQDDtViGXP4wbC+Gfk+2E1Xc
+d0i13bumBk2L2PaYGNpqIYz9xAHQP9HcOegXqX2lu32nQIkW8UxXi7eYrPa0IeCI
+7estAjokw4vTjqQuoCVlZ2DeNWCYde+on4LQWy6ArIFLjTjqozdUnuYWb7sCc4pH
+MToEX2jHZCh0jKz/w0W+holz3ouHocwP88JQYRtjgxeIiMkZU/FTw0R+KLG/SrlI
+eAgwX6AHwgmZmAjVNVbVpAqUJhLL6TSELrUVwkjwCGywC065jTS6UCoEp+29ZcVO
+bk/Cnih7mwBi2jlpf+025VxNWRWyHSUjHs4k6kymSLdBKIKpdPOecncUQY+Od6NG
+IjPConshm6UFRPL3BSKTfhW/lN3FmMPErn9FWrCUZ8zt7OiUMrD4ZYleTO3TXr6K
+OP+fPnLButeAWeEHQKKhoXnTeGKH1hdn04wuqwvCMCAHFqELLizOl4xGz9ynmSDq
+7wsQkvzmQvHMO3jUcCZVkmJ7IdSEG6fkC7WjAHBbDg8OS6E1L6X0c3RT7NyBDEnO
+Fp79mWuPGKRhVCTPAgMBAAGjZjBkMB0GA1UdDgQWBBRWmPURlvA9ML730ldQzlg5
+tyOBbTAfBgNVHSMEGDAWgBRe8APsyaBqpc+wiSVRLLeW5moILzASBgNVHRMBAf8E
+CDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBhjANBgkqhkiG9w0BAQsFAAOCAgEAjiNA
+YS8dHFP72ulM5MHOk6st8W9ns4w27d1U5aVg8Na/rWnlZxk7Rm5syz3/kNzsSXIW
+fIH+VD6QB2LARlrNeSWRIzJYXZN4jpleHx+CI50MKjVowonZttSCL4Rgfjesc1Oe
+WdxaJ/hkVEaZMbM/qxAdCFFnL4ESIgn8946tRKLRphrLQ2C8uuhfNfgxOjO1P6Jk
+Yh3KfiuAP/v4FWiopT/+EJYQV7LSXOoKfoEtSsTSTVPBoJ2OreQb/06SXdboDF0Q
+CuSwNGiASrCu/feza9HR79FGyuCmrntheQDWAgscjBFBkh2zG3ub53D3qqwVNQHg
+prHVg2XK+SBqzMOKWd9SFnSPdJ8gKU/eU1rdobnUWFCMBatRPK7RUDCZu6eVVBJj
+rA7x8VTiNeBlct5W76jyIQBPoU2HZNgqI6+tewxSIHsUr4f+VGaxzfLQ+dghs+Uo
+dvqGn8M4EUGR+iCvCR7zOKjz5HotLqpdTNFVtZHItPGlDDM4wEoRFM8XTmAQSAsN
+2OIbBHgykIfuK+aroChN6h7XbiU3Ks+F6p/Lfg/zZ+45vWrfGkNjnHCA6wWUtCSg
+NRsznsdN4yDCeKtORv/9D5UzeZPBzfVMxd93KnZ92/6EQ37D+G7POt6MVSw8aR/3
+ghKPxdclqHmih8EIKHGAEsu+VVEruHBG3tMFQG0=
+</ds:X509Certificate></ds:X509Data><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>dnQualifier=XvAD7MmgaqXPsIklUSy3luZqCC8=,CN=ca-root.chinafilm-hualong.com,O=Hualong Ltd,OU=chinafilm-hualong.com</ds:X509IssuerName><ds:X509SerialNumber>470137420335851333408853004184724462208472800360</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509Certificate>MIIF/TCCA+WgAwIBAgIUUlmw6EmSd+4N8RILy1P7gIyXXGgwDQYJKoZIhvcNAQEL
+BQAwgYUxJTAjBgNVBC4THFh2QUQ3TW1nYXFYUHNJa2xVU3kzbHVacUNDOD0xFDAS
+BgNVBAoMC0h1YWxvbmcgTHRkMR4wHAYDVQQLDBVjaGluYWZpbG0taHVhbG9uZy5j
+b20xJjAkBgNVBAMMHWNhLXJvb3QuY2hpbmFmaWxtLWh1YWxvbmcuY29tMB4XDTIx
+MDYxMDEwNDcwOVoXDTQxMDYwNTEwNDcwOVowgYUxJTAjBgNVBC4THFh2QUQ3TW1n
+YXFYUHNJa2xVU3kzbHVacUNDOD0xFDASBgNVBAoMC0h1YWxvbmcgTHRkMR4wHAYD
+VQQLDBVjaGluYWZpbG0taHVhbG9uZy5jb20xJjAkBgNVBAMMHWNhLXJvb3QuY2hp
+bmFmaWxtLWh1YWxvbmcuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC
+AgEA4Q//O0mNfyIDJXR2R0OvsERn7PLaa+xCvtKgc4AI9Kiumoxz6FSiOeVtIHVM
+AlMah5e5pcEvQdDkRt1Yzd+CDSO25Ojf8CxAEanu6SNY6UY0EZwKcPGqgwzd4s4o
+CVMmKlY8AetGscI2mzd94WojnjmuI2sLA9iIYwlxavWhsGAbN0lSpVe+g2A2pulG
+SP0d+h/zjlEW+89mkkyfVUlQZ2xF6/FTqfqNbQv5MJmgkaG1ZBiCP3cyL6514+hm
+z5eOCkv6evtxmYsVz/JuEOAYz4Amp8Ob8GXotphV+nMwlxGwifPUlMyIldJ6LZFY
+4JAWWZPqyeTUPIKAHCpdRZFU4EXemVOavDPRFm+cux8p2cogSqzIMwkPOZlV05Xr
+pfyOAvfpcNdyq5Vw/dwZOHySCamndycx5UWW2yM0XDFlCHjg5r/SCCT4Sv2mq1I3
+Q7kwzkGUIQlGMjjiu4UfVj5ZF8omETXc6ZvJYZSNYQIGl74kb0x3dJZ8DIVyGPmf
+VSTFzhGg3vo58CuyCPKkxGyqolcFd1PlH3/9JUym2epcuENeG+CVDsWRzb5IbdkB
+N6I+sGZJwlCvI9YZO3Fg/gIqWsY9Khn3KBKHdaBqJHc1O9kQSD9+ppm+2rrEEEOe
+EpDrQ/z1Z7xq2ZEPxGP/kJPw8m3gH4n4B0ct5MEFLdACP8UCAwEAAaNjMGEwHQYD
+VR0OBBYEFF7wA+zJoGqlz7CJJVEst5bmaggvMB8GA1UdIwQYMBaAFF7wA+zJoGql
+z7CJJVEst5bmaggvMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgGGMA0G
+CSqGSIb3DQEBCwUAA4ICAQDSIZYZDIw4agmcSQPDUbLnfDH4OcLzqR0xe2hqbomC
+dSEt2sUTPNyGTniBruafeEvZ8RHYvucP8nYQ2AXxFLQW+XWWLnjMx+wEk0s2B75Y
+sCWduNuOufP3VOysGuXj3kXXovGsTeWzqtIXVHU9ljuBbWilmZCF58oftVka3A4a
+qRFt0RtkCtpH8NFsE7S5tccE8lleXKkzfcrC/3S5bn9vD6JNEKTLk3UgHu/EN2OO
+zHavY1uWNs1F4A0JhwZYF3JKWaBPvEyOc6/cY+atwjT9vc+hgoAJndXqvbu+l4dK
+kyIyNjK3Wdg1aV1GMYnp+viHAm37A+cMbLdn+OJoFgQG1uW7SSeJYCPEEJ1s/+6O
+PL149+nT3CV+06Mxgdz1GqR8WcXilHEOby5F3FKgYoXmDNnQbdAiICEQCzUoK098
+xcnkBPEBu7Sbb+QbU0oMDKodc14Bc4fMQKrD0juow0Bt5HOefTzK5UjA4B0E8j7m
+RwuHSerC4CL8tYL9KTVq3rY89KweyELDmon1bnT+k538DSKyRhfP3XObqJuG2jIj
+3bC5N5u65L74jBiAYaFaCaTCza9kvEF+nUUtxAL2wEA59TIhNjxSzeqnF/vV2ozI
+MzuEhIvzj7ASAtYkRdU2nZnsqsRFRqWUh4kYqGe4SiBQEL5GqcMwf0MUdt+l6eE7
+7g==
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></DCinemaSecurityMessage>
