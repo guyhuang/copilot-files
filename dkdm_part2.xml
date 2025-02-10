@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DCinemaSecurityMessage xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+  <AuthenticatedPrivate Id="ID_AuthenticatedPrivate">
+    <enc:EncryptedKey xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p">
+        <ds:DigestMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      </enc:EncryptionMethod>
+      <enc:CipherData>
+        <enc:CipherValue>TmoWq0BO7qC1ODHgssenAaChBXr0mGo6ERWsT927m2lN3UyYysggFpn6g0Th2+aotO63jMIFBBmR</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+  </AuthenticatedPrivate>
+</DCinemaSecurityMessage>
